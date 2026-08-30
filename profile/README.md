@@ -70,7 +70,7 @@ The result is a shared quality signal inside Jira—one place for teams to inspe
   <img src="./assets/support-frameworks-and-ci.png" alt="Testream supported test frameworks and CI providers" width="100%" />
 </p>
 
-Publish from Playwright, Cypress, Jest, Vitest, Mocha, WebdriverIO, Pytest, JUnit XML, .NET, or any CTRF-producing test stack. Run the publishing step from the command-capable CI provider your team already operates.
+Publish from Playwright, Cypress, Jest, Vitest, Mocha, WebdriverIO, Pytest, JUnit XML, .NET, Go, Jasmine, or any CTRF-producing test stack. Run the publishing step from the command-capable CI provider your team already operates.
 
 <p>
   <a href="https://docs.testream.app/getting-started/installation#reporters">Choose a reporter</a> ·
@@ -92,6 +92,8 @@ Install the package for the test stack you already use, then use the correspondi
 | Pytest | [`@testream/pytest-reporter`](https://www.npmjs.com/package/@testream/pytest-reporter) | [`pytest-jira-reporter`](https://github.com/testream/pytest-jira-reporter) |
 | JUnit XML | [`@testream/junit-reporter`](https://www.npmjs.com/package/@testream/junit-reporter) | [`junit-jira-reporter`](https://github.com/testream/junit-jira-reporter) |
 | .NET | [`@testream/dotnet-reporter`](https://www.npmjs.com/package/@testream/dotnet-reporter) | [`dotnet-jira-reporter`](https://github.com/testream/dotnet-jira-reporter) |
+| Go | [`@testream/go-reporter`](https://www.npmjs.com/package/@testream/go-reporter) | [`go-jira-reporter`](https://github.com/testream/go-jira-reporter) |
+| Jasmine | [`@testream/jasmine-reporter`](https://www.npmjs.com/package/@testream/jasmine-reporter) | [`jasmine-jira-reporter`](https://github.com/testream/jasmine-jira-reporter) |
 | Any CTRF output | [`@testream/cli`](https://www.npmjs.com/package/@testream/cli) | [`ctrf-jira-reporter`](https://github.com/testream/ctrf-jira-reporter) |
 
 Browse the full [Testream npm organization](https://www.npmjs.com/org/testream) or [all public working repositories](https://github.com/orgs/testream/repositories).
